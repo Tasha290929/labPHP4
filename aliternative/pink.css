@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(210,130,166);
+    background: radial-gradient(circle, rgba(210,130,166,1) 0%, rgba(245,197,204,1) 100%);
+}
+
+
+.header {
+    overflow: hidden;
+    background-color: #6e4555;
+    padding: 10px 10px;
+    color: #f5e3e0;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+
+}
+
+form {
+    width: 50%;
+}
+
+.block {
+    color: #3a3238;
+    margin-left: 150px;
+    margin: 10px auto;
+    width: 50%;
+    border-radius: 15px;
+    background-color: #f5e3e0;
+    padding: 20px;
+    background: #f5e3e0;
+    border: 2px solid #3a3238;;
+}
