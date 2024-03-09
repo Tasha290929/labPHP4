@@ -132,6 +132,7 @@
             <label name="name"> Name:
                 <input type="text" name="name" value="<?php echo $name; ?>">
                 <span class="error">* <?php echo $nameErr; ?></span>
+            </label>
                 <br> <br>
                 <label name="email"> Mail:
                     <input type="text" name="email" value="<?php echo $email; ?>">
