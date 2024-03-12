@@ -47,9 +47,7 @@ gap: 10px; margin-top: 10px;">
         $type = $_POST["type"];
         $pizzaSize = $_POST["pizzaSize"];
 
-        $outputString = "Заказано  $amounght пицц(ы) типа  $type  размером $pizzaSize";
-
-        echo $outputString;
+        echo "Заказано  $amounght пицц(ы) типа  $type  размером $pizzaSize";
     }
 
     ?>

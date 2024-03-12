@@ -74,10 +74,12 @@ gap: 10px; margin-top: 10px;">
 </div>
 <?php
         } else {
+            ?>
             // If there are validation errors, display them
-            echo '<div id="error">';
-            echo '<p>Пожалуйста, исправьте следующие ошибки:</p>';
-            echo '<ul>';
+            <div id="error">
+            <p>Пожалуйста, исправьте следующие ошибки:</p>
+            <ul>
+            <?php
             foreach ($validationErrors as $error) {
                 echo '<li>' . $error . '</li>';
             }
@@ -85,4 +87,4 @@ gap: 10px; margin-top: 10px;">
             echo '</div>';
         }
     }
-    ?>
+    
